@@ -36,19 +36,21 @@ json
 Receive Response: Receive the optimal delivery path as a response from the system.
 
 Assumptions:
-1. Coordinates are provided as latitude and longitude values.
-2. Preparation times for each restaurant are provided.
-3. Aman's current location is provided.
-4. The average speed of Aman is assumed to be 20 km/hr.
-5. Running the Application
-6. Build the project using Maven: mvn clean install.
-7. Run the Spring Boot application: java -jar delivery-optimizer.jar.
-8. Extensibility
-9. The Delivery Optimization System can be extended to handle more restaurants and delivery executives by adding additional locations and orders. Simply provide the input data accordingly, and the system will optimize the delivery path accordingly.
+- Coordinates are provided as latitude and longitude values.
+- Preparation times for each restaurant are provided.
+- Aman's current location is provided.
+- The average speed of Aman is assumed to be 20 km/hr.
+
+Running the Application:
+- Build the project using Maven: mvn clean install.
+- Run the Spring Boot application: java -jar delivery-optimizer.jar.
+
+Extensibility:
+- The Delivery Optimization System can be extended to handle more restaurants and delivery executives by adding additional locations and orders. Simply provide the input data accordingly, and the system will optimize the delivery path accordingly.
 
 Testing:
-1. Unit tests can be added to ensure the correctness of individual components.
-2. Integration tests can be performed to validate the behavior of the system as a whole.
+- Unit tests can be added to ensure the correctness of individual components.
+- Integration tests can be performed to validate the behavior of the system as a whole.
 
 
 Contributors:
